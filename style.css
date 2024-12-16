@@ -1,0 +1,411 @@
+ /* Custom Navbar Styles */
+ .main-navbar {
+  background-color: #1f1f1f; /* Black background */
+  font-family: "Jost", sans-serif;
+}
+
+.main-navbar .nav-link {
+  color: #3bcf93 !important;
+  margin-right: 20px;
+}
+
+.main-navbar .nav-link:hover {
+  color: #ebf0eb !important;
+  text-decoration: underline;
+}
+
+.social-links .nav-link {
+  color: #3bcf93 !important;
+  margin-right: 10px;
+}
+
+.social-links .nav-link:hover {
+  color: #ebf0eb !important;
+  text-decoration: underline;
+}
+
+.auth-buttons .btn-login {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-buttons .btn-login:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.auth-buttons .btn-signup {
+  background-color: #3bcf93;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-buttons .btn-signup:hover {
+  background-color: #090404;
+}
+
+.navbar-brand img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo-container {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 10px; /* Padding around the image */
+  border-radius: 10px; /* Rounded corners */
+  display: inline-block; /* Wrap around the image */
+}
+
+.logo-container img {
+  border-radius: 5px; /* Rounded corners for the image */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.custom-navbar {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('image/hand.jpeg'); /* Gradient with background image */
+  background-size: cover; /* Image covers the entire navbar */
+  background-position: center; /* Center the image */
+  height: 300px; /* Prominent height for the image */
+  position: relative;
+
+  color: white; /* Adjust text color for contrast */
+}
+
+.custom-navbar .container {
+  position: relative;
+  z-index: 2; /* Content above the background */
+  background-color: #ebf0eb;
+  border-radius: 6px;
+}
+
+/* Search Bar Styles */
+.search-form {
+  display: flex; /* Align input and icon horizontally */
+  transition: all 0.3s ease;
+}
+
+.search-bar {
+  border-radius: 0 20px 20px 0; /* Rounded right corners */
+  border: 1px solid #3bcf93; /* Border color */
+  padding: 10px 15px; /* Spacing inside the input */
+  width: 250px; /* Fixed width */
+  font-size: 16px; /* Readable font size */
+  transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth focus effect */
+}
+
+.search-bar:focus {
+  box-shadow: 0 0 10px rgba(59, 207, 147, 0.7); /* Focus shadow */
+  border-color: rgba(
+    59,
+    207,
+    147,
+    0.7
+  ); /* Match focus effect with shadow */
+  outline: none; /* Remove default focus outline */
+}
+
+.search-icon {
+  background-color: #3bcf93; /* Theme color */
+  color: #fff; /* White icon */
+  border: 1px solid #3bcf93; /* Border matching theme */
+  border-radius: 20px 0 0 20px; /* Rounded left corners */
+  padding: 10px 15px; /* Icon spacing */
+  display: flex; /* Align icon center */
+  align-items: center;
+  justify-content: center;
+  font-size: 18px; /* Icon size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* General Button Styles */
+.navbar-toggler {
+  border-color: #fff; /* Optional: Customize toggle button */
+}
+
+/* Donate Button Styles for Education */
+.btn-donate {
+  background-color: #4caf50; /* Green color */
+  color: #fff; /* White text */
+  font-weight: bold; /* Bold text */
+  padding: 10px 20px; /* Comfortable padding */
+  border: none; /* Remove border */
+  border-radius: 30px; /* Fully rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: all 0.3s ease-in-out; /* Smooth hover effects */
+  text-transform: uppercase; /* Make text uppercase */
+  position: relative;
+  overflow: hidden; /* For animation effect */
+  display: flex;
+  align-items: center;
+}
+
+/* Icon Animation */
+.btn-donate .fa-book-open {
+  font-size: 18px; /* Size of the icon */
+  animation: pulse 1s infinite; /* Pulse animation */
+}
+
+/* Keyframes for pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Hover Effect */
+.btn-donate:hover {
+  background-color: #45a049; /* Slightly darker green */
+  transform: scale(1.05); /* Slightly increase size */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+.btn-donate:hover .fa-book-open {
+  transform: scale(1.2); /* Scale up the icon */
+}
+.childrenDetail {
+  padding-top: 1px;
+  padding-bottom: 10px;
+  background-color: #b2beb5;
+}
+
+.content {
+  display: flex;
+  padding: 50px 60px;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.prefix {
+  white-space: nowrap;
+}
+
+.children {
+  max-width: 500px;
+}
+.welcomeContent {
+  max-width: 700px;
+  text-align: start;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 690px;
+  height: 4.5rem;
+}
+
+h1 span.prefix {
+  font-size: 40px;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+h1 span.prefix:hover {
+  color: #7c5ce0;
+}
+
+.message {
+  background: linear-gradient(45deg, #a8d8ea, #aa96da);
+  color: #000;
+  display: block;
+  font-weight: 700;
+  overflow: hidden;
+  position: absolute;
+  padding: 0.2rem 1rem;
+  top: 0.2rem;
+  left: 270px;
+  border-radius: 4px;
+  animation: openclose 8s ease-in-out infinite;
+  height: 4.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.message:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.word1,
+.word2,
+.word3,
+.word4 {
+  font-family: tahoma;
+  position: absolute;
+  width: 110%;
+  opacity: 0;
+  height: 4.5rem;
+}
+
+.message .word1 {
+  animation: word-animation 8s infinite;
+}
+.message .word2 {
+  animation: word-animation 0s infinite 0s;
+}
+.message .word3 {
+  animation: word-animation 8s infinite 4s;
+}
+.message .word4 {
+  animation: word-animation 8s infinite 6s;
+}
+
+@keyframes word-animation {
+  0%,
+  5% {
+    opacity: 0;
+  }
+  10%,
+  22% {
+    opacity: 1;
+  }
+  27%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  10% {
+    width: 285px;
+  }
+  20% {
+    top: 0.2rem;
+    width: 185px;
+  }
+  25% {
+    top: 0.2rem;
+    width: 0;
+  }
+  30% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 125px;
+  }
+  45% {
+    top: 0.2rem;
+    width: 125px;
+  }
+  50% {
+    top: 0.2rem;
+    width: 0;
+  }
+  55% {
+    top: 0.2rem;
+    width: 0;
+  }
+  60% {
+    top: 0.2rem;
+    width: 285px;
+  }
+  70% {
+    top: 0.2rem;
+    width: 285px;
+  }
+  75% {
+    top: 0.2rem;
+    width: 0;
+  }
+  80% {
+    top: 0.2rem;
+    width: 350px;
+  }
+  90% {
+    top: 0.2rem;
+    width: 365px;
+  }
+  95% {
+    top: 0.2rem;
+    width: 0;
+  }
+  100% {
+    top: 0.2rem;
+    width: 0;
+  }
+}
+.ptag{
+  font-size: 22px;
+} 
+.children{
+  border-radius: 4px;
+}
+.main-container, .html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccd4ca;
+}
+
+.footer-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.header-animated, .text-animated {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.header-animated {
+  animation: fadeIn 2s ease-in-out, float 3s ease-in-out infinite;
+}
+
+.text-animated {
+  animation: fadeIn 2s ease-in-out, float 3s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.header-animated{
+  color: #533b8a;
+}
