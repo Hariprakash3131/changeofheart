@@ -1,7 +1,5 @@
- 
- /* Custom Navbar Styles */
  .main-navbar {
-  background-color: #1f1f1f; /* Black background */
+  background-color: #1f1f1f;
   font-family: "Jost", sans-serif;
 }
 
@@ -54,80 +52,74 @@
 }
 
 .logo-container {
-  background-color: #f0f0f0; /* Light gray background */
-  padding: 10px; /* Padding around the image */
-  border-radius: 10px; /* Rounded corners */
-  display: inline-block; /* Wrap around the image */
+  background-color: #f0f0f0; 
+  padding: 10px; 
+  border-radius: 10px; 
+  display: inline-block; 
 }
 
 .logo-container img {
-  border-radius: 5px; /* Rounded corners for the image */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 5px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .navbar-custom {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('image/hand.jpeg'); /* Gradient with background image */
-  background-size: cover; /* Image covers the entire navbar */
-  background-position: center; /* Center the image */
-  height: 300px; /* Prominent height for the image */
+    url('image/rrr.png'); 
+  background-size: cover; 
+  background-position: center; 
+  height: 300px; 
   position: relative;
 
-  color: white; /* Adjust text color for contrast */
+  color: white; 
 }
 
 .navbar-custom .container {
   position: relative;
-  z-index: 2; /* Content above the background */
+  z-index: 2; 
   background-color: #ebf0eb;
   border-radius: 6px;
 }
-
-/* Search Bar Styles */
 .search-form {
-  display: flex; /* Align input and icon horizontally */
+  display: flex; 
   transition: all 0.3s ease;
 }
 
 .search-bar {
-  border-radius: 0 20px 20px 0; /* Rounded right corners */
-  border: 1px solid #3bcf93; /* Border color */
-  padding: 10px 15px; /* Spacing inside the input */
-  width: 250px; /* Fixed width */
-  font-size: 16px; /* Readable font size */
-  transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth focus effect */
+  border-radius: 0 20px 20px 0; 
+  border: 1px solid #3bcf93; 
+  padding: 10px 15px; 
+  width: 250px; 
+  font-size: 16px; 
+  transition: box-shadow 0.3s ease, border-color 0.3s ease; 
 }
 
 .search-bar:focus {
-  box-shadow: 0 0 10px rgba(59, 207, 147, 0.7); /* Focus shadow */
+  box-shadow: 0 0 10px rgba(59, 207, 147, 0.7); 
   border-color: rgba(
     59,
     207,
     147,
     0.7
-  ); /* Match focus effect with shadow */
-  outline: none; /* Remove default focus outline */
+  );
+  outline: none; 
 }
 
 .search-icon {
-  background-color: #3bcf93; /* Theme color */
-  color: #fff; /* White icon */
-  border: 1px solid #3bcf93; /* Border matching theme */
-  border-radius: 20px 0 0 20px; /* Rounded left corners */
-  padding: 1px 15px; /* Icon spacing */
-  display: flex; /* Align icon center */
+  background-color: #3bcf93; 
+  color: #fff; 
+  border: 1px solid #3bcf93; 
+  border-radius: 20px 0 0 20px; 
+  padding: 1px 15px;
+  display: flex; 
   align-items: center;
   justify-content: center;
-  font-size: 18px; /* Icon size */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  font-size: 18px; 
+  transition: background-color 0.3s ease; 
 }
-
-/* General Button Styles */
 .navbar-toggler {
-  border-color: #fff; /* Optional: Customize toggle button */
+  border-color: #fff;
 }
-
-/* Donate Button Styles for Education */
 .btn-donate {
   background-color: #4caf50; /* Green color */
   color: #fff; /* White text */
@@ -243,7 +235,7 @@ h1 {
   }
 
   .children {
-    margin-left: 0;
+    margin-left: 30px;
     margin-top: 20px;
   }
 
@@ -251,7 +243,6 @@ h1 {
     font-size: 2rem; /* Adjust heading size for smaller screens */
   }
 }
-
 
 h1 span.prefix {
   font-size: 40px;
@@ -268,15 +259,14 @@ h1 span.prefix:hover {
   background: linear-gradient(45deg, #a8d8ea, #aa96da);
   color: #000;
   display: block;
-  font-weight: 700;
+  font-weight: 660;
   overflow: hidden;
   position: absolute;
-  padding: 0.2rem 1rem;
-  top: 0.2rem;
-  left: 270px;
+  top: 0.9rem;
+  left: 280px;
   border-radius: 4px;
   animation: openclose 8s ease-in-out infinite;
-  height: 4.5rem;
+  height: 3.1rem;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -508,5 +498,194 @@ h1 span.prefix:hover {
 .ceo{
   font-size: x-small;
   color: #89acb5;
+}
+
+.scroll2 {
+  background-image: url(image/h10.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  height: 50vh;
+}
+
+.section2 {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #89acb5;
+  overflow: hidden;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #89acb5;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .scroll2 {
+    background-attachment: scroll; /* Disable fixed background for smaller screens */
+  }
+
+  .overlay h1 {
+    font-size: 1.3rem; /* Reduce font size for tablets and smaller devices */
+    color: #89acb5;
+    font-weight: 1000;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay h1 {
+    font-size: 1.5rem; /* Further reduce font size for very small devices */
+    padding: 0 20px; /* Add padding for better readability */
+    
+  }
+
+  .scroll2 {
+    height: 60vh; /* Adjust height for better layout on small screens */
+  }
+
+  .section2 {
+    padding: 10px; /* Add padding for smaller screens */
+  }
+}
+/* Footer Styles */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Ensure content wraps on smaller screens */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* About Section */
+.footer-about {
+  flex: 1 1 50%;
+  text-align: left;
+}
+
+.footer-about i {
+  font-size: 2rem;
+  color: #ff4500;
+  margin-right: 10px;
+  animation: bounce 2s infinite;
+}
+
+.footer-about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.footer-about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+
+/* Form Section */
+.form-inline {
+  flex: 1 1 50%; /* Adjusted flex-basis for better width */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px; /* Slightly increased gap for better spacing */
+}
+
+.form-inline .form-control {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 20%; /* Increased width for better usability */
+}
+
+.form-inline .btn {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  padding: 10px 18px; /* Slightly adjusted padding for balance */
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.form-inline .btn:hover {
+  background-color: #ff6347;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-about {
+    flex: unset;
+  }
+
+  .form-inline {
+    flex: unset;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .form-inline .form-control {
+    width: 80%;
+  }
+}
+
+/* Bounce Animation for Icon */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+.icons-last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+.fa-brands{
+  padding: 10px;
+
+}
+.copy-right {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.copy-right a {
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.copy-right a:hover {
+  color: #d40000; /* Darker shade on hover */
 }
 
